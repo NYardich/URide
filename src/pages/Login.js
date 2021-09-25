@@ -1,9 +1,10 @@
 import React from 'react'
+import CarHome from '../components/CarHome'
 
 const Login = () => {
     return (
         <div>
-            <h1>login</h1>
+            <CarHome/>
         </div>
     )
 }
