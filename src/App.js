@@ -14,6 +14,7 @@ function App() {
     <Router>
       <div className="App">
         <Header />
+
         <Route path='/login' component={Login}></Route>
         <Route path='/register' component={Register}></Route>
         <Route path='/select' component={Select}></Route>
@@ -21,6 +22,8 @@ function App() {
         <Route path='/rideronboard' component={RiderOnboard}></Route>
         <Route path='/driverhome' component={DriverHome}></Route>
         <Route path='/driveronboard' component={DriverOnboard}></Route>
+
+
       </div>
     </Router>
 
