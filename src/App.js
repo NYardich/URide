@@ -15,6 +15,12 @@ function App() {
       <div className="App">
         <Header />
         <Route path='/login' component={Login}></Route>
+        <Route path='/register' component={Register}></Route>
+        <Route path='/select' component={Select}></Route>
+        <Route path='/riderhome' component={RiderHome}></Route>
+        <Route path='/rideronboard' component={RiderOnboard}></Route>
+        <Route path='/driverhome' component={DriverHome}></Route>
+        <Route path='/driveronboard' component={DriverOnboard}></Route>
       </div>
     </Router>
 
